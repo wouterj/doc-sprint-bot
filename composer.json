@@ -1,0 +1,15 @@
+{
+    "require": {
+        "stil/phoebe": "dev-master",
+        "symfony/console": "~2.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {"": "src"}
+    }
+}
